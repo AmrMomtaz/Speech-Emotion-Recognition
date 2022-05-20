@@ -26,4 +26,8 @@ In the audio pre-processing pipeline the following steps were taken:
 
 
 Then torchaudio was used for extracting 2D audio features (Mell spectrogram) with 64 coefficients. Or librosa was used to extract 1D features like zero-crossing-rate.
-Then the data wwas splitted 70% for training and validation (5% for validation) and 30% for testing (stratifying was applied)
+Then the data wwas splitted 70% for training and validation (5% for validation) and 30% for testing (stratifying was applied).
+
+## Model and training
+
+## Testing and final results
