@@ -13,6 +13,6 @@ We should diffrentiate six classes which are {happy,sad,angry,disgust,neutral,fe
 
 I've used **torchaudio** and **librosa** libraries to extract audio features.<br>
 First the audio was loaded to get the wavefrom and the power spectrum as following:
-![alt text]([http://url/to/img.png](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/waveform.png))
-![alt text]([http://url/to/img.png](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/power_spectrum.png))
+![alt text](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/waveform.png)
+![alt text](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/power_spectrum.png)
 torchaudio was used for extracting 2D audio features (Mell spectrogram) with 64 coefficients. 
