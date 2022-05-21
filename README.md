@@ -24,10 +24,13 @@ In the audio pre-processing pipeline the following steps were taken:
 * All audio are padded and cutted to have 4 secs length.
 * All audio were mixed down to 1 single channel.<br>
 
-
 Then torchaudio was used for extracting 2D audio features (Mell spectrogram) with 64 coefficients. Or librosa was used to extract 1D features like zero-crossing-rate.
 Then the data wwas splitted 70% for training and validation (5% for validation) and 30% for testing (stratifying was applied).
 
-## Model and training
-
-## Testing and final results
+## Model and training and results
+I've implemented two CNN models which are the VGG-19 and simple VGG architecture. The following pictures is for the best model with best hyperparameters (using VGG-19 with dropout and LR=1e-4)**BEFORE** data augmentation.<br>
+![alt text](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/train_loss.png)<br>
+![alt text](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/validation_accuracy.png)<br>
+![alt text](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/classification_report.png)<br>
+![alt text](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/confusion_matrix.png)<br>
+<br>Finally the best accuarcy reached 0.8 using data augmentation. Please note that for 1D models and the 0.8 accuracy aren't present in this repositories. (It was a group project and I finished until this part and then my teammates carried on). All the implementation details and models you can fine in the colab notebook.
