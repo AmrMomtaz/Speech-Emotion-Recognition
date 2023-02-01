@@ -33,4 +33,5 @@ I've implemented two CNN models which are the VGG-19 and simple VGG architecture
 ![alt text](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/validation_accuracy.png)<br>
 ![alt text](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/classification_report.png)<br>
 ![alt text](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/confusion_matrix.png)<br>
-<br>Finally, The model can get better results using data augmentation. All the implementation details and models you can find it in the colab notebook.
+<br>Finally, The model can get better results using data augmentation.<br>
+All the implementation details and models you can find it in the colab notebook.
