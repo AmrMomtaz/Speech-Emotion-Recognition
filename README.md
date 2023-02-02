@@ -28,7 +28,7 @@ Then torchaudio was used for extracting 2D audio features (Mell spectrogram) wit
 Then the data wwas splitted 70% for training and validation (5% for validation) and 30% for testing (stratifying was applied).
 
 ## Model and training and results
-I've implemented two CNN models which are the VGG-19 and simple VGG architecture. The following pictures is for the best model with best hyperparameters (using VGG-19 with dropout and LR=1e-4)**BEFORE** data augmentation.<br>
+I've implemented two CNN models which are the VGG-19 and simple VGG architecture. The following pictures is for the best model with best hyperparameters (using VGG-19 with dropout and LR=1e-4). <br><br>
 ![alt text](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/train_loss.png)<br>
 ![alt text](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/validation_accuracy.png)<br>
 ![alt text](https://github.com/AmrMomtaz/Speech-Emotion-Recognition/blob/main/Images/classification_report.png)<br>
